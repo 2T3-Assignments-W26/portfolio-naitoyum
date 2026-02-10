@@ -26,17 +26,18 @@ PowerShell is an essential tool for:
 - **Extensibility**: Create custom functions, modules, and scripts.
 - **Cross-Platform**: PowerShell Core runs on Windows, macOS, and Linux.
 
-PowerShell History
+## PowerShell History
 
-PowerShell Version Comparison
-Version:Release Year:Key Features                            
-1.0:2006:Initial release Windows XP SP2 and Windows Server 2003.
-2.0:2009:Introduced remote management and modules.
-5.1:2016:Last Windows-only version               
-6.0:2018:Known as PowerShell Core 6.0. First cross-platform version.
-7.0:2020:Unified Windows PowerShell and PowerShell Core, offering a modern, cross-platform experience.
+### PowerShell Version Comparison
+| Version | Release Year | Key Features                                                                                  |
+| ------- | ------------ | --------------------------------------------------------------------------------------------- |
+| 1.0     | 2006         | Initial release Windows XP SP2 and Windows Server 2003.                                       |
+| 2.0     | 2009         | Introduced remote management and modules.                                                     |
+| 5.1     | 2016         | Last Windows-only version                                                                     |
+| 6.0     | 2018         | Known as PowerShell Core 6.0. First cross-platform version.                                   |
+| 7.0     | 2020         | Unified Windows PowerShell and PowerShell Core, offering a modern, cross-platform experience. |
 
-Version Summary
+### Version Summary
 Windows PowerShell: Versions 1.0 to 5.1 (Windows-only).
 PowerShell Core: Versions 6.0 and above (cross-platform).
 
