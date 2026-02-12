@@ -38,8 +38,8 @@ PowerShell is an essential tool for:
 | 7.0     | 2020         | Unified Windows PowerShell and PowerShell Core, offering a modern, cross-platform experience. |
 
 ### Version Summary
-Windows PowerShell: Versions 1.0 to 5.1 (Windows-only).
-PowerShell Core: Versions 6.0 and above (cross-platform).
+* **Windows PowerShell**: Versions 1.0 to 5.1 (Windows-only).
+* **PowerShell Core**: Versions 6.0 and above (cross-platform).
 
 
 PowerShell for Beginners
