@@ -1,0 +1,20 @@
+# This a comment 
+
+# To ignore use *.extension which will ignore all files with the specified extension 
+
+# Exmple to ignore exe files 
+
+*.exe 
+*.txt
+
+# To ignore a specific file, provide its name 
+
+secrets.txt 
+
+ 
+
+# To ignore all files in a folder, folderName/ 
+
+# Here is an example to ignore all files in bin folder 
+
+# bin/ 
