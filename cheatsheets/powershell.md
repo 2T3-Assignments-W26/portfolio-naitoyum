@@ -63,6 +63,7 @@ PowerShell is an essential tool for:
 
 ### Basic Commands to Get Started
 
+* **`Add-Content`**: Appends content, such as words or data, to a file. 
 * **`Get-Content`**: Gets the contents of a file. 
 * **`Get-Command`**: Lists all available commands.  
 * **`Get-Help`**: Provides help information for commands.  
