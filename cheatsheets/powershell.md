@@ -13,7 +13,7 @@
 | List directory contents | `Get-ChildItem` | `ls`, `dir`, `gci` |
 | Get file content | `Get-Content <File-Path>` | `gc`, `cat` |
 | Copy items | `Copy-Item <Source> <Destination>` | `cp`, `cpi` |
-| Move items | `Move-Item <Source> <Destination`> | `mv`, `mi` |
+| Move items | `Move-Item <Source> <Destination>` | `mv`, `mi` |
 | Remove items | `Remove-Item <Name>` | `rm` |
 | Create new item | `New-Item <Name>` | `mkdir`, `touch` |
 | Manage processes | `Get-Process, Stop-Process` | |
