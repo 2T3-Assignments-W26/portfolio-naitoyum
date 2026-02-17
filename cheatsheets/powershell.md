@@ -59,11 +59,11 @@ PowerShell is an essential tool for:
 * **Windows PowerShell**: Versions 1.0 to 5.1 (Windows-only).
 * **PowerShell Core**: Versions 6.0 and above (cross-platform).
 
-
 ## PowerShell for Beginners
 
 ### Basic Commands to Get Started
 
+* **`Get-Content`**: Gets the contents of a file. 
 * **`Get-Command`**: Lists all available commands.  
 * **`Get-Help`**: Provides help information for commands.  
 * **`Get-Process`**: Displays all running processes.  
