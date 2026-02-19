@@ -4,9 +4,9 @@
 
 Desc
 
-| Technologies |
-| - |
-| aaa |
+| Technologies Used | Use case |
+| - | - |
+| aaa | aaa |
 
 ```c#
 
@@ -44,4 +44,4 @@ This C# project was made for an assignment in Programming I. It is an action-pac
 
 ### What I Learned
 
-I learnd that trying to learn programming concepts through Google and through online documentation is not sufficient for their efficient usage.
+I learned that trying to learn programming concepts through Google and through online documentation is not sufficient for their efficient usage. The program  experiences frequent slowdowns on the average computer, and, although no bugs have been experienced, I am unable to judge whether the implentations are orthodox or not. Furthermore, there is a theoretical possibility in which the program crashes due to the way some mathematical formulas have been handled.
