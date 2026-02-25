@@ -2,25 +2,24 @@
 
 # Naito Yum
 
-temp address temp-phone-number tempemail@gmail.com
+Dorval, QC ◆ 514-892-8131 ◆ naitoyum@gmail.com
 
 ## Professional Summary
 
-temp
+N/A
 
 ## Work History
 
-temp
+N/A
 
 ## Skills
 
-| **Technical** | **Communications** |
-| - | - |
-| temp | temp |
-| temp | temp |
+| **Technical**    | **Communications**   |
+| ---------------- | -------------------- |
+| Programming (C#) | (currently learning) |
 
 ## Education
 
-| **Degree** | **School** | **Year** |
-| - | - | - |
-| temp | John Abbot College | in progress |
+| **Degree**                               | **School**         | **Year**               |
+| ---------------------------------------- | ------------------ | ---------------------- |
+| Computer Science Technology (420.B0) DEC | John Abbot College | (in progress for 2028) |

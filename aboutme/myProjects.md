@@ -58,7 +58,7 @@ public int pixelY() { return (int)m_y; }
 
 ### What I Learned
 
-I learned that trying to learn programming concepts through Google and through online documentation is not sufficient for their efficient usage. The program experiences frequent slowdowns on the average computer, and, although no bugs have been experienced, I am unable to judge whether the implentations are orthodox or not. Furthermore, there is a theoretical possibility in which the program crashes due to the way some mathematical formulas have been handled.
+I learned that trying to learn programming concepts that haven't been taught in class is unsurprisingly inefficient. The program experiences frequent slowdowns on the average computer, and, although no "glitches" have been experienced, I am unable to judge whether the implentations are orthodox or not. Furthermore, there is a theoretical possibility in which the program crashes due to the way some mathematical formulas have been handled.
 
 ## Programming 2 - Sudoku
 
@@ -73,10 +73,44 @@ This C# project was made $for an assignment in Programming II. It is a console a
 
 ```c#
 
+    static bool[,] ClearCellsInBoard(TileValue[,] board)
+    {
+        int totalLength = board.Length;
+        int length = board.GetLength(0);
+
+        int numbersToClear = totalLength / 2;
+
+        int[] availableIndeces = new int[totalLength];
+        for (int i = 0; i < totalLength; ++i)
+        {
+            availableIndeces[i] = i;
+        }
+
+        for (int i = 0; i < numbersToClear; ++i)
+        {
+            int randomNumber = random.Next(0, totalLength - i);
+            int row = availableIndeces[randomNumber] / length;
+            int column = availableIndeces[randomNumber] % length;
+            board[row, column] = 0;
+            reorderAvailableIndeces(availableIndeces, randomNumber);
+        }
+
+        return getLockedCells(length, totalLength, numbersToClear, availableIndeces);
+    }
 ```
 
 ```c#
-
+    static bool[,] getLockedCells(int length, int totalLength, int numbersToClear, int[] availableIndeces)
+    {
+        bool[,] lockedCells = new bool[length, length];
+        for (int i = 0; i < totalLength - numbersToClear; ++i)
+        {
+            int row = availableIndeces[i] / length;
+            int column = availableIndeces[i] % length;
+            lockedCells[row, column] = true;
+        }
+        return lockedCells;
+    }
 ```
 
 ### Screenshots
@@ -87,4 +121,4 @@ This C# project was made $for an assignment in Programming II. It is a console a
 
 ### What I Learned
 
-My ability to make functions smaller has improved during the project, as it was a requirement. The previous project had way too many lines, whereas this one has at most 10 lines per function.
+My ability to make functions smaller has improved during the project, as it was a requirement. For instance The previous project had way too many lines per function, whereas this one generally has less than 15 lines per function.
