@@ -1,4 +1,4 @@
-![](../cheatsheets/PowerShell_5.0_icon.png)
+![](../cheatsheets/face.png)
 
 # Naito Yum
 
